@@ -2,7 +2,7 @@
 
 ## Scope
 
-Sonar is the in-memory vector retrieval layer of the TuringLambdaAI product
+Sonar is the in-memory vector retrieval layer of the TurLamAI product
 family: chunk, embed, store, and rank text passages. It is not a database, a
 disk index, an LLM client, or an agent framework.
 

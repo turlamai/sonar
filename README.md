@@ -2,11 +2,11 @@
 
 **In-memory vector search for Racket — chunk, embed, store, retrieve.**
 
-[![CI](https://github.com/turinglambdaai/sonar/actions/workflows/ci.yml/badge.svg)](https://github.com/turinglambdaai/sonar/actions/workflows/ci.yml) ![Racket](https://img.shields.io/badge/Racket-9F1D20?logo=racket&logoColor=white) [![License](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
+[![CI](https://github.com/turlamai/sonar/actions/workflows/ci.yml/badge.svg)](https://github.com/turlamai/sonar/actions/workflows/ci.yml) ![Racket](https://img.shields.io/badge/Racket-9F1D20?logo=racket&logoColor=white) [![License](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
 
 **English** · [中文](README.zh-CN.md)
 
-Sonar keeps a corpus of embedded text passages in memory and answers one question well: *which passages resemble this query?* Text is chunked at sentence boundaries, embedded through an embedder you control, normalized once at add time, and searched with a plain dot product. The pure core never touches the network — the embedding boundary is a parameter, and the [Switchboard](https://github.com/turinglambdaai/switchboard) adapter is one explicit require away.
+Sonar keeps a corpus of embedded text passages in memory and answers one question well: *which passages resemble this query?* Text is chunked at sentence boundaries, embedded through an embedder you control, normalized once at add time, and searched with a plain dot product. The pure core never touches the network — the embedding boundary is a parameter, and the [Switchboard](https://github.com/turlamai/switchboard) adapter is one explicit require away.
 
 Sonar is not a database, a disk index, or an agent framework. It owns the piece in the middle that everything else got wrong in ad-hoc scripts: deterministic chunking, loud failures, and one store invariant — every embedding is a unit vector.
 

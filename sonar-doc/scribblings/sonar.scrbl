@@ -1,7 +1,7 @@
 #lang scribble/manual
 
 @title{Sonar}
-@author{TuringLambdaAI}
+@author{TurLamAI}
 
 Public module: @tt{sonar}
 
