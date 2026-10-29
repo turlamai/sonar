@@ -2,11 +2,11 @@
 
 **Racket 内存向量检索——分块、嵌入、存储、召回。**
 
-[![CI](https://github.com/turinglambdaai/sonar/actions/workflows/ci.yml/badge.svg)](https://github.com/turinglambdaai/sonar/actions/workflows/ci.yml) ![Racket](https://img.shields.io/badge/Racket-9F1D20?logo=racket&logoColor=white) [![License](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
+[![CI](https://github.com/turlamai/sonar/actions/workflows/ci.yml/badge.svg)](https://github.com/turlamai/sonar/actions/workflows/ci.yml) ![Racket](https://img.shields.io/badge/Racket-9F1D20?logo=racket&logoColor=white) [![License](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
 
 **[English](README.md) · 中文**
 
-Sonar 在内存中维护一份已嵌入的文本语料，只回答一个问题：*哪些段落与这条查询最相似？* 文本按句界分块，经你控制的 embedder 生成向量，入库时归一化一次，检索就是一个普通点积。纯核心不碰网络——嵌入边界是一个参数，接 [Switchboard](https://github.com/turinglambdaai/switchboard) 适配层只需一次显式 require。
+Sonar 在内存中维护一份已嵌入的文本语料，只回答一个问题：*哪些段落与这条查询最相似？* 文本按句界分块，经你控制的 embedder 生成向量，入库时归一化一次，检索就是一个普通点积。纯核心不碰网络——嵌入边界是一个参数，接 [Switchboard](https://github.com/turlamai/switchboard) 适配层只需一次显式 require。
 
 Sonar 不是数据库、磁盘索引或 agent 框架。它只拥有中间那一块最容易在临时脚本里做错的部分：确定性分块、响亮的失败，以及一条库不变式——每个嵌入向量都是单位向量。
 
