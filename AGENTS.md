@@ -36,3 +36,10 @@ The pure core must never require Switchboard or any network client. Only the
   `exn:fail:sonar` instead of loading partial state.
 - Public API changes land in the same change as their scribble documentation
   and both READMEs.
+
+## 设计流程（原型先行）
+
+所有 UI 开发与界面改造一律先原型后代码：brief → `design/DESIGN.md`
+视觉契约 → HTML 原型 → 按 HIG 基准评审通过才开工；改界面先改原型再改
+代码。契约与原型放本仓 `design/`（尚未建立时随首个 UI 切片建立），
+实物截图验收后才能作为对外宣传素材。
