@@ -5,7 +5,7 @@
 (define collection 'multi)
 (define deps
   '(["base" #:version "9.0"]
-    "switchboard"
+    ["switchboard" #:version "0.1"]
     "rackunit-lib"))
 (define build-deps '("racket-doc" "scribble-lib"))
 (define pkg-desc "In-memory vector search: chunk, embed, store, and retrieve text")
