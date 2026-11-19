@@ -1,7 +1,5 @@
 # Sonar
 
-**Support:** [Issues & feedback](https://github.com/turlamai/sonar/issues) · [Development policy](https://github.com/turlamai/turlamai.github.io/blob/master/PORTFOLIO.md)
-
 **In-memory vector search for Racket — chunk, embed, store, retrieve.**
 
 [![CI](https://github.com/turlamai/sonar/actions/workflows/ci.yml/badge.svg)](https://github.com/turlamai/sonar/actions/workflows/ci.yml) ![Racket](https://img.shields.io/badge/Racket-9F1D20?logo=racket&logoColor=white) [![License](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
