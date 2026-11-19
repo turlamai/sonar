@@ -1,7 +1,5 @@
 # Sonar
 
-**支持：**[问题与反馈](https://github.com/turlamai/sonar/issues) · [当前交付策略](https://github.com/turlamai/turlamai.github.io/blob/master/PORTFOLIO.zh-CN.md)
-
 **Racket 内存向量检索——分块、嵌入、存储、召回。**
 
 [![CI](https://github.com/turlamai/sonar/actions/workflows/ci.yml/badge.svg)](https://github.com/turlamai/sonar/actions/workflows/ci.yml) ![Racket](https://img.shields.io/badge/Racket-9F1D20?logo=racket&logoColor=white) [![License](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
